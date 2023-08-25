@@ -59,6 +59,8 @@ while not motor_serial.shutdown_now :
     # Get and print readings from distance sensors
     dist_1 = motor_serial.get_dist_1()
     dist_2 = motor_serial.get_dist_2()
+
+    
     print("Dist 1:", dist_1, "   Dist 2:", dist_2)
 
     
